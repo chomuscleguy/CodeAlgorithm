@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace CodeAlgorithm
 {
-    
     public class EvenOddNum
     {
         //문제 설명

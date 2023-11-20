@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace CodeAlgorithm
 {
-
     public class Quotient
     {
         //문제 설명
