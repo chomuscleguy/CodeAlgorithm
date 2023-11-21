@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace CodeAlgorithm
 {
-
     public class Multiply
     {
         //문제 설명
