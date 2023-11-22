@@ -16,8 +16,8 @@ namespace CodeAlgorithm
         //N의 범위 : 100,000,000 이하의 자연수
         public int solution(int n)
         {
-            string num = n.ToString();
             int answer = 0;
+            string num = n.ToString();
             for(int i =0; i < num.Length; i++)
             {
                 answer += int.Parse(num.Substring(i, 1));
