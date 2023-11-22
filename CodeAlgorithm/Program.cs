@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            SumofEvenNum sumofEvenNum = new SumofEvenNum();
-            Console.WriteLine(sumofEvenNum.solution(4));
+            DigitAdd digitAdd = new DigitAdd();
+            Console.WriteLine(digitAdd.solution(123));
         }
     }
 }
