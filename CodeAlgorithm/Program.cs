@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            DigitAdd digitAdd = new DigitAdd();
-            Console.WriteLine(digitAdd.solution(123));
+            DivisorSum divisorSum = new DivisorSum();
+            Console.WriteLine(divisorSum.solution(12));
         }
     }
 }
