@@ -4,9 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            DistanceNum distanceNum = new DistanceNum();
+            ReverseArr reverseArr = new ReverseArr();
 
-            long[] result = distanceNum.solution(2, 5);
+            int[] result = reverseArr.solution(1234);
+
             foreach (long num in result)
             {
                 Console.Write(num + " ");
