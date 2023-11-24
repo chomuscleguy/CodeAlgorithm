@@ -4,8 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            Remainder remainder = new Remainder();
-            Console.WriteLine(remainder.solution(10));
+            DistanceNum distanceNum = new DistanceNum();
+
+            long[] result = distanceNum.solution(2, 5);
+            foreach (long num in result)
+            {
+                Console.Write(num + " ");
+            }
         }
     }
 }
