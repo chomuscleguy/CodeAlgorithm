@@ -20,7 +20,7 @@ namespace CodeAlgorithm
 
             for (int i = 1; i <= n; i++)
             {
-                answer[i - 1] = x * i;
+                answer[i - 1] = (long)x * i;
             }
             return answer;
         }

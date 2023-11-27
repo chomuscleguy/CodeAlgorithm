@@ -24,8 +24,7 @@ namespace CodeAlgorithm
                     {
                         answer += i;
                     }
-                }
-                //자신을 포함한 짝수를 모두 더해라
+                } 
             }
             return answer;
         }
