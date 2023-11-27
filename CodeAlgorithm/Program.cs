@@ -4,14 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            ReverseArr reverseArr = new ReverseArr();
+            StringToInt reverseArr = new StringToInt();
 
-            int[] result = reverseArr.solution(1234);
+            int result = reverseArr.solution("+1234");
 
-            foreach (long num in result)
-            {
-                Console.Write(num + " ");
-            }
         }
     }
 }
