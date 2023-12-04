@@ -31,8 +31,7 @@ namespace CodeAlgorithm
                 else
                 {
                     sum -= absolutes[i];
-                }
-                
+                }   
             }
             answer = sum;
             return answer;
