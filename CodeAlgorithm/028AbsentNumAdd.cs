@@ -18,17 +18,9 @@ namespace CodeAlgorithm
         public int solution(int[] numbers)
         {
             int answer = -1;
-            int Max = numbers[0];
             int sum = 0;
-            for(int i = 1; i < numbers.Length; i++)
-            {
-                if (numbers[i] > Max)
-                {
-                    Max = numbers[i];
-                }
-            }
 
-            for(int j = 0; j<=Max; j++)
+            for(int j = 0; j<=9; j++)
             {
                 sum += j;
             }
