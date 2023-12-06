@@ -35,7 +35,7 @@ namespace CodeAlgorithm
             {
                 answer = new int[arr.Length - 1];
                 int index = 0;
-                for (int j = 0; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length; j++)
                 {
                     if (arr[j] > min)
                     {
