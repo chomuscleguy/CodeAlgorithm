@@ -1,9 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace CodeAlgorithm
 {
@@ -21,14 +16,8 @@ namespace CodeAlgorithm
         public string[] solution(string[] strings, int n)
         {
             string[] answer = new string[] { };
-            for (int i = 0; i < strings.Length; i++)
-            {
-                for (int j = 0; j < strings.Length; i++)
-                {
-                    if (strings[i] > strings[i+1])
-                    answer[i] = strings[i];
-                }
-            }
+
+            answer = strings.OrderBy(x => x[n]).ThenBy(x => x).ToArray();
             return answer;
         }
     }
